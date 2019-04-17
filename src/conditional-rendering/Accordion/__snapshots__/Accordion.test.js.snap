@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component when an accordion button is clicked sets clickView state to section id 1`] = `
+<ul>
+  <Section
+    clickedView={0}
+    content="Hey, this is the content for Foo"
+    id={0}
+    key="0"
+    showSection={[Function]}
+    title="Foo"
+  />
+  <Section
+    clickedView={0}
+    content="And, this is the better content for Bar"
+    id={1}
+    key="1"
+    showSection={[Function]}
+    title="Bar"
+  />
+  <Section
+    clickedView={0}
+    content="Andddd, this is the best content for Baz"
+    id={2}
+    key="2"
+    showSection={[Function]}
+    title="Baz"
+  />
+</ul>
+`;
+
+exports[`Accordion Component when an accordion button is clicked shows the correct content 1`] = `
+<li
+  className="accordion-section"
+>
+  <button
+    onClick={[Function]}
+  >
+    Foo
+  </button>
+  <p>
+    Hey, this is the content for Foo
+  </p>
+</li>
+`;
+
+exports[`Accordion Component when an empty array is given renders a single empty li 1`] = `
+<ul>
+  <li />
+</ul>
+`;
