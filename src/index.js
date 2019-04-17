@@ -5,4 +5,4 @@ import ReactDOM from 'react-dom';
 import RoulettGun from './state-drills/RoulettGun'
 import './index.css';
 
-ReactDOM.render(<RoulettGun/>, document.getElementById('root'));
+ReactDOM.render(<RoulettGun bulletInChamber={4}/>, document.getElementById('root'));
